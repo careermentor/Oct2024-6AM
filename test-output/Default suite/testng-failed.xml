@@ -5,9 +5,8 @@
     <classes>
       <class name="org.wipro.automation.aumw.testcases.LoginScenario">
         <methods>
-          <include name="tc02_validateloginfunc_invalidCredential"/>
+          <include name="tc02_validateloginfunc_validCredential"/>
           <include name="closeBrowser"/>
-          <include name="tc01_validateloginfunc_validCredential"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- org.wipro.automation.aumw.testcases.LoginScenario -->

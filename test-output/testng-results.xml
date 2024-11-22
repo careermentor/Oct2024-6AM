@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-21T06:38:25 IST" name="Default suite" finished-at="2024-11-21T06:38:52 IST" duration-ms="27176">
+  <suite started-at="2024-11-22T06:37:07 IST" name="Default suite" finished-at="2024-11-22T06:37:13 IST" duration-ms="5231">
     <groups>
     </groups>
-    <test started-at="2024-11-21T06:38:25 IST" name="Default test" finished-at="2024-11-21T06:38:52 IST" duration-ms="27176">
-      <class name="org.wipro.automation.aumw.testcases.SignupScenario">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:25 IST" name="launchBrowser" finished-at="2024-11-21T06:38:31 IST" duration-ms="5934" status="PASS">
+    <test started-at="2024-11-22T06:37:07 IST" name="Default test" finished-at="2024-11-22T06:37:13 IST" duration-ms="5231">
+      <class name="org.wipro.automation.aumw.testcases.LoginScenario">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.LoginScenario@76a4ebf2]" started-at="2024-11-22T06:37:07 IST" name="launchBrowser" finished-at="2024-11-22T06:37:12 IST" duration-ms="4535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="tc01_validatesignup_validfirstnamelastname(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:31 IST" name="tc01_validatesignup_validfirstnamelastname" data-provider="dd2" finished-at="2024-11-21T06:38:35 IST" duration-ms="3442" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fname1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lname1]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="tc02_validateloginfunc_validCredential()[pri:0, instance:org.wipro.automation.aumw.testcases.LoginScenario@76a4ebf2]" started-at="2024-11-22T06:37:12 IST" name="tc02_validateloginfunc_validCredential" finished-at="2024-11-22T06:37:13 IST" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc01_validatesignup_validfirstnamelastname -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:35 IST" name="closeBrowser" finished-at="2024-11-21T06:38:35 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- tc02_validateloginfunc_validCredential -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.LoginScenario@76a4ebf2]" started-at="2024-11-22T06:37:13 IST" name="closeBrowser" finished-at="2024-11-22T06:37:13 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:35 IST" name="launchBrowser" finished-at="2024-11-21T06:38:40 IST" duration-ms="5366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="tc01_validatesignup_validfirstnamelastname(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:40 IST" name="tc01_validatesignup_validfirstnamelastname" data-provider="dd2" finished-at="2024-11-21T06:38:43 IST" duration-ms="3315" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fname2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lname2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_validatesignup_validfirstnamelastname -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:43 IST" name="closeBrowser" finished-at="2024-11-21T06:38:43 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:43 IST" name="launchBrowser" finished-at="2024-11-21T06:38:49 IST" duration-ms="5226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="tc01_validatesignup_validfirstnamelastname(java.lang.String,java.lang.String)[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:49 IST" name="tc01_validatesignup_validfirstnamelastname" data-provider="dd2" finished-at="2024-11-21T06:38:52 IST" duration-ms="3764" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fname3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lname3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc01_validatesignup_validfirstnamelastname -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.wipro.automation.aumw.testcases.SignupScenario@6e6f2380]" started-at="2024-11-21T06:38:52 IST" name="closeBrowser" finished-at="2024-11-21T06:38:52 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- org.wipro.automation.aumw.testcases.SignupScenario -->
+      </class> <!-- org.wipro.automation.aumw.testcases.LoginScenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
