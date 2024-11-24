@@ -10,6 +10,7 @@ class DemoClass
 	
 		FirstClass def = new FirstClass();
 		def.printval();
+		System.out.println("test");
 		
 	}
 

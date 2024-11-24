@@ -15,17 +15,17 @@ public class LoginTestScenario
 	public void launchBrowser()
 	{
 		driver= new ChromeDriver();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.amazon.com/");
 	}
 	
 	@AfterMethod
 	public void closeBrowser()
 	{
-		driver.close();
+		//driver.close();
 	
 	}
 	
-	@Test
+	
 	public void tc01_validateSignupfunc()
 	{
 		
@@ -43,9 +43,9 @@ public class LoginTestScenario
 	public void tc02_validateLoginfunc()
 	{
 		
-		driver.findElement(By.id("email")).sendKeys("user1@gmail.com");
-		driver.findElement(By.name("pass")).sendKeys("pass1234");
-		driver.findElement(By.cssSelector("[type='submit']")).click();
+		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("user1@gmail.com");
+		//driver.findElement(By.name("pass")).sendKeys("pass1234");
+		//driver.findElement(By.cssSelector("[type='submit']")).click();
 		
 		
 	}
